@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal"
+    android:background="@color/bg_card" android:padding="12dp" android:layout_marginBottom="4dp" android:gravity="center_vertical">
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+        <TextView android:id="@+id/tv_script_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/text_white" android:textSize="14sp" android:textStyle="bold" />
+        <TextView android:id="@+id/tv_script_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/text_gray" android:textSize="10sp" android:maxLines="1" android:ellipsize="middle" />
+    </LinearLayout>
+    <Switch android:id="@+id/switch_script" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" />
+    <Button android:id="@+id/btn_run_script" style="@android:style/Widget.Button" android:layout_width="36dp" android:layout_height="36dp" android:text="RUN" android:textSize="10sp" android:layout_marginStart="4dp" android:backgroundTint="@color/accent_green" android:textColor="@color/text_white" />
+    <Button android:id="@+id/btn_delete_script" style="@android:style/Widget.Button" android:layout_width="36dp" android:layout_height="36dp" android:text="X" android:textSize="12sp" android:layout_marginStart="2dp" android:backgroundTint="@color/accent_red" android:textColor="@color/text_white" />
+</LinearLayout>

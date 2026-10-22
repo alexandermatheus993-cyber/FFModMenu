@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/bg_dark"
+    android:gravity="center" android:padding="24dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="MOD MENU" android:textColor="@color/cyan_neon" android:textSize="32sp" android:textStyle="bold" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Free Fire + No Root + Shizuku" android:textColor="@color/text_gray" android:textSize="14sp" android:layout_marginBottom="36dp" />
+    <Button android:id="@+id/btn_grant_overlay" android:layout_width="match_parent" android:layout_height="52dp"
+        android:text="1. Conceder Permissao Overlay" android:backgroundTint="@color/accent_orange" android:textColor="@color/text_white" android:layout_marginBottom="12dp" />
+    <Button android:id="@+id/btn_check_shizuku" android:layout_width="match_parent" android:layout_height="52dp"
+        android:text="2. Verificar Shizuku" android:backgroundTint="@color/accent_blue" android:textColor="@color/text_white" android:layout_marginBottom="12dp" />
+    <Button android:id="@+id/btn_start_mod" android:layout_width="match_parent" android:layout_height="56dp"
+        android:text="3. ATIVAR MOD MENU" android:backgroundTint="@color/accent_green" android:textColor="@color/text_white" android:textSize="16sp" android:textStyle="bold" android:layout_marginBottom="12dp" />
+    <Button android:id="@+id/btn_scripts" android:layout_width="match_parent" android:layout_height="48dp"
+        android:text="Gerenciar Scripts Lua" android:backgroundTint="#9C27B0" android:textColor="@color/text_white" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Ative o overlay e abra o Free Fire.\nO botao MOD aparece na tela."
+        android:textColor="@color/text_gray" android:textSize="12sp" android:gravity="center" android:layout_marginTop="28dp" />
+</LinearLayout>

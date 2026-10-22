@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/bg_dark" android:padding="16dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Scripts Extras" android:textColor="@color/cyan_neon" android:textSize="22sp" android:textStyle="bold" android:layout_marginBottom="14dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="12dp">
+        <EditText android:id="@+id/et_script_url" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1"
+            android:hint="URL do script (.lua)" android:textColor="@color/text_white" android:textColorHint="@color/text_gray"
+            android:background="@color/bg_card" android:paddingStart="12dp" android:paddingEnd="12dp" android:textSize="13sp" android:inputType="textUri" android:singleLine="true" />
+        <Button android:id="@+id/btn_download" android:layout_width="wrap_content" android:layout_height="48dp"
+            android:text="Baixar" android:textSize="14sp" android:layout_marginStart="8dp" android:backgroundTint="@color/accent_orange" android:textColor="@color/text_white" />
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Scripts disponiveis:" android:textColor="@color/text_gray" android:textSize="13sp" android:layout_marginBottom="6dp" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_scripts" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" />
+    <Button android:id="@+id/btn_select_file" android:layout_width="match_parent" android:layout_height="48dp"
+        android:text="Carregar arquivo .lua" android:backgroundTint="@color/accent_blue" android:textColor="@color/text_white" android:layout_marginTop="12dp" />
+</LinearLayout>

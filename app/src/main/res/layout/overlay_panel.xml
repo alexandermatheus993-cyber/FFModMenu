@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp" android:layout_height="wrap_content"
+    android:background="@drawable/panel_bg" android:layout_gravity="center">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="14dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="FF MOD MENU" android:textColor="@color/cyan_neon" android:textSize="20sp"
+            android:textStyle="bold" android:gravity="center" android:layout_marginBottom="10dp" />
+        <Button android:id="@+id/btn_mode_toggle" style="@android:style/Widget.Button"
+            android:layout_width="match_parent" android:layout_height="40dp" android:textColor="@color/text_white" android:textSize="12sp" />
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btn_damage" style="@android:style/Widget.Button" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="3dp" android:textSize="13sp" android:textStyle="bold" />
+        <Button android:id="@+id/btn_recoil" style="@android:style/Widget.Button" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="3dp" android:textSize="13sp" android:textStyle="bold" />
+        <Button android:id="@+id/btn_speed" style="@android:style/Widget.Button" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="3dp" android:textSize="13sp" android:textStyle="bold" />
+        <Button android:id="@+id/btn_aim" style="@android:style/Widget.Button" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="3dp" android:textSize="13sp" android:textStyle="bold" />
+        <Button android:id="@+id/btn_godmode" style="@android:style/Widget.Button" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="3dp" android:textSize="13sp" android:textStyle="bold" />
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btn_scripts" style="@android:style/Widget.Button" android:layout_width="match_parent" android:layout_height="40dp" android:text="SCRIPTS EXTRAS" android:textColor="@color/cyan_neon" android:textSize="13sp" />
+        <Button android:id="@+id/btn_close" style="@android:style/Widget.Button" android:layout_width="match_parent" android:layout_height="36dp" android:text="Fechar Painel" android:textColor="@color/text_gray" android:textSize="11sp" android:layout_marginTop="6dp" />
+        <Button android:id="@+id/btn_exit" style="@android:style/Widget.Button" android:layout_width="match_parent" android:layout_height="36dp" android:text="PARAR MOD" android:textColor="@color/accent_red" android:textSize="12sp" />
+    </LinearLayout>
+</ScrollView>

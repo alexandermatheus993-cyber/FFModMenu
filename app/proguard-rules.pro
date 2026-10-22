@@ -1,0 +1,3 @@
+-keep class com.ff.modmenu.** { *; }
+-keep class rikka.shizuku.** { *; }
+-dontwarn rikka.shizuku.**

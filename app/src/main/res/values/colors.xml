@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cyan_neon">#00BCD4</color>
+    <color name="bg_dark">#1A1A2E</color>
+    <color name="bg_panel">#DD1A1A2E</color>
+    <color name="bg_card">#2A2A4A</color>
+    <color name="accent_orange">#FF9800</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_red">#FF5722</color>
+    <color name="accent_blue">#2196F3</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_gray">#888888</color>
+    <color name="divider">#333333</color>
+</resources>
